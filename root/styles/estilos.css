@@ -1,0 +1,102 @@
+body{background-color:#FFE8C3;}
+#contenedor {
+	background-color: #ffe8c3;
+	margin-right: auto;
+	margin-left: auto;
+	height: 750px;
+	width: 1024px;
+}
+#contenedor #encabezado {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 36px;
+	color: #716558;
+	height: 130px;
+	text-align: center;
+	padding-top: 20px;
+	background-image: url(../images/linea.png);
+	background-repeat: no-repeat;
+	background-position: center 100px;
+}
+#contenedor #pie p a {
+	text-decoration: underline blink;
+	color: #360;
+}
+
+#contenedor #menu {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
+	height: 50px;
+}
+#contenedor #pie {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #360;
+	background-color: #c1ce8d;
+	text-align: center;
+	height: 35px;
+	padding-top: 5px;
+	background-image: url(../images/barra_pie.png);
+}
+#contenedor #contenido p a {
+	color: #030;
+	text-decoration: none;
+}
+#contenedor #contenido p a:hover {
+	color: #8A0000;
+	text-decoration: underline blink;
+}
+#contenedor #pie p a:hover {
+	font-weight: bold;
+	color: #600;
+	text-decoration: overline;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contenedor #contenido {
+	height: 480px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #030;
+}
+#contenedor #menu ul {
+	list-style-type: none;
+}
+#contenedor #menu ul li a {
+	text-align: center;
+	display: block;
+	width: 170px;
+
+
+
+
+
+	background-image: url(../images/boton1%20(2)
+.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	color: #030;
+	text-decoration: none;
+	float: left;
+	padding-top: 10px;
+	background-image: url(../images/boton1.png);
+}
+#contenedor #menu ul li a:hover {
+	background-image: url(../images/boton2.png);
+}
+
+
+#contenedor #menu ul li {
+	float: left;
+}
+#contenedor #contenido #TabbedPanels1 .TabbedPanelsContentGroup .TabbedPanelsContent.TabbedPanelsContentVisible .image-row {
+	margin-right: 100px;
+	margin-left: 100px;
+}
