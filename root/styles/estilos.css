@@ -7,19 +7,21 @@ body{background-color:#FFFFFF;}
 	margin-right: auto;
 	margin-left: auto;
 }
+
 #Contenedor #pie {
 	font-size: 16px;
+	font-family: "noto sans";
 	text-align: center;
 	height: 35px;
 	background-color: #c1ce8d;
 	padding-top: 5px;
 	color: #360;
-	background-image: url(images/barra_pie.png);
 }
+
 #Contenedor #encabezado {
 	font-family: "noto sans";
 	font-size: 36px;
-	color: #716558;
+	color: #A56AFC;
 	text-decoration: blink;
 	height: 130px;
 	padding-top: 20px;
